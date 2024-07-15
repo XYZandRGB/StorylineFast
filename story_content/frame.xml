@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npnxnanbnsnfns10110000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0xFE635B">
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npnxnanbnsnfns10111000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0xFE635B">
   <layouts>
-    <layout name="npnxnanbsnfns10110000101" font="Articulate" controllayout="npnxnanbsnfns10110000101" colorscheme="npnxnanbnsnfns10110000101" string_table="npnxnanbnsnfns10110000101" />
-    <layout name="pxabnsnfns10110000101" font="Articulate" controllayout="pxabnsnfns10110000101" colorscheme="npnxnanbnsnfns10110000101" string_table="npnxnanbnsnfns10110000101" />
-    <layout name="npxnabnsnfns10110000101" font="Articulate" controllayout="npxnabnsnfns10110000101" colorscheme="npnxnanbnsnfns10110000101" string_table="npnxnanbnsnfns10110000101" />
-    <layout name="npnxnanbnsnfns10110000101" font="Articulate" controllayout="npnxnanbnsnfns10110000101" colorscheme="npnxnanbnsnfns10110000101" string_table="npnxnanbnsnfns10110000101" />
-    <layout name="pxabnsnfns10110000100" font="Articulate" controllayout="pxabnsnfns10110000100" colorscheme="npnxnanbnsnfns10110000101" string_table="npnxnanbnsnfns10110000101" />
+    <layout name="npnxnanbsnfns10111000101" font="Articulate" controllayout="npnxnanbsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
+    <layout name="pxabnsnfns10111000101" font="Articulate" controllayout="pxabnsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
+    <layout name="npxnabnsnfns10111000101" font="Articulate" controllayout="npxnabnsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
+    <layout name="npnxnanbnsnfns10111000101" font="Articulate" controllayout="npnxnanbnsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
+    <layout name="pxabnsnfns10111000100" font="Articulate" controllayout="pxabnsnfns10111000100" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -19,7 +19,7 @@
           <option name="logo_enabled" value="false">
             <options />
           </option>
-          <option name="sidebar_enabled" value="false">
+          <option name="sidebar_enabled" value="true">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
@@ -28,7 +28,7 @@
           <optionlist name="tabs">
             <listitems>
               <listitem name="resources" value="false" group="linkright" />
-              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
@@ -103,7 +103,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns10110000101">
+    <control_layout name="npnxnanbsnfns10111000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -121,14 +121,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10110000101">
+    <control_layout name="pxabnsnfns10111000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -146,14 +146,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns10110000101">
+    <control_layout name="npxnabnsnfns10111000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -171,14 +171,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns10110000101">
+    <control_layout name="npnxnanbnsnfns10111000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -196,14 +196,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10110000100">
+    <control_layout name="pxabnsnfns10111000100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -221,7 +221,7 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
@@ -230,7 +230,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbnsnfns10110000101">
+    <colorscheme name="npnxnanbnsnfns10111000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1407,7 +1407,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbnsnfns10110000101">
+    <string_table name="npnxnanbnsnfns10111000101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1569,8 +1569,8 @@
             <slidelink slideid="_player.6cNLDS2a0Ub.5evTDwVKHoC" displaytext="Order of Operations for Basic Functions" expand="false" type="slide" />
             <slidelink slideid="_player.6cNLDS2a0Ub.5hSea9YgISG" displaytext="Breaking Down Functions" expand="false" type="slide" />
             <slidelink slideid="_player.6cNLDS2a0Ub.6oqIiHLEdCN" displaytext="Exercise 1: Breaking Down Functions" expand="false" type="slide" />
-            <slidelink slideid="_player.6cNLDS2a0Ub.663GveBhe68" displaytext=" " expand="false" type="slide" />
-            <slidelink slideid="_player.6cNLDS2a0Ub.5qjlZNv9yuw" displaytext=" " expand="false" type="slide" />
+            <slidelink slideid="_player.6cNLDS2a0Ub.663GveBhe68" displaytext="Blender&amp;apos;s Geometry Nodes" expand="false" type="slide" />
+            <slidelink slideid="_player.6cNLDS2a0Ub.5qjlZNv9yuw" displaytext="Parametric Equations" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
